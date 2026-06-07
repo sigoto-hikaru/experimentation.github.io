@@ -1,0 +1,69 @@
+/* header */
+.l-header {
+  align-items: center;
+  display: flex;
+  margin: 0 2.5%;
+  justify-content: space-between;
+  position: fixed;
+  top: 20px;
+  z-index: 100;
+}
+/* @media screen and (max-width: 767px) {
+  .l-header {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0 15px;
+    position: static;
+  }
+} */
+.l-header__logo {
+  width: 24.8%;
+}
+/* @media screen and (max-width: 767px) {
+  .l-header__logo {
+    width: 50%;
+  }
+} */
+.l-header__logo-image {
+  width: 100%;
+}
+
+.l-header__nav {
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3098039216);
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 0 20px;
+  height: 60px;
+}
+/* @media screen and (max-width: 767px) {
+  .l-header__nav {
+    display: none;
+  }
+} */
+.l-header__nav-list {
+  align-items: center;
+  column-gap: 2vw;
+  display: flex;
+}
+.l-header__nav-item {
+  padding: 20px 10px;
+}
+
+.l-header__hamburger {
+  display: none;
+}
+
+/* 
+@media screen and (max-width: 767px) {
+  .l-header__hamburger {
+    display: block;
+    height: 60px;
+    position: relative;
+    width: 60px;
+  }
+} */
+.l-header__hamburger-bar {
+  position: absolute;
+}
